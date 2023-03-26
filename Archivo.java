@@ -1,8 +1,8 @@
 /*
  * Diego Soto (22737)
  * Algoritmos y Estructuras de Datos Sección 40
- * Hoja de Trabajo 4
- * 20-02-2023
+ * Hoja de Trabajo 7
+ * 25-03-2023
  */
 import java.io.File;
 import java.io.FileNotFoundException;

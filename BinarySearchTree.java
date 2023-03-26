@@ -36,7 +36,7 @@ public class BinarySearchTree<K, V> {
 	@param value the value to be added
 	*/
 	public void add(String key, V value) {
-		TreeNode<K, V> newNode = new TreeNode<K, V>((String) key, value);
+		TreeNode<K, V> newNode = new TreeNode<K, V>((K)keyGenerator.getKeyFromValue(value), value);
 		if (isEmpty) { //Es el primer elemento que se inserta
 			root = newNode;
 			isEmpty = false;
